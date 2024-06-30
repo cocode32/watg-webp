@@ -1,3 +1,5 @@
+This is a fork of the library which merges sizeofint/webpanimation so as to use both libraries in a project
+
 - *Go语言QQ群: 102319854, 1055927514*
 - *凹语言(凹读音“Wa”)(The Wa Programming Language): https://github.com/wa-lang/wa*
 
@@ -88,7 +90,7 @@ func main() {
 	if err = ioutil.WriteFile("output.webp", buf.Bytes(), 0666); err != nil {
 		log.Println(err)
 	}
-    
+
     fmt.Println("Save output.webp ok")
 }
 ```
